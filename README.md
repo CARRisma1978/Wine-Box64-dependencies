@@ -66,7 +66,7 @@ This puts the whole repo in the right place, so a later `git pull` updates the m
 git clone https://github.com/CARRisma1978/Wine-Box64-dependencies.git ~/RetroPie-Setup/ext/windows
 ```
 
-To update later:
+To get newer versions of the modules later:
 
 ```bash
 cd ~/RetroPie-Setup/ext/windows && git pull
