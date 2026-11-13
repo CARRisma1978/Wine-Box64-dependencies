@@ -1,4 +1,4 @@
-# Wine-Box64-dependencies
+# Wine-Box64-dependencies# Box64-Wine-Install
 
 RetroPie-Setup modules for running Windows games on a **Raspberry Pi 5** with [Box64](https://github.com/ptitSeb/box64) and [Kron4ek's Wine builds](https://github.com/Kron4ek/Wine-Builds). They appear in RetroPie-Setup's **Experimental** section, and install, update and remove everything from there. They also add a **Windows** system to EmulationStation.
 
@@ -63,7 +63,7 @@ RetroPie-Setup picks up extra modules from its `ext` folder. These modules go in
 This puts the whole repo in the right place, so a later `git pull` updates the modules:
 
 ```bash
-git clone https://github.com/CARRisma1978/Wine-Box64-dependencies.git ~/RetroPie-Setup/ext/windows
+git clone https://github.com/CARRisma1978/Box64-Wine-Install.git ~/RetroPie-Setup/ext/windows
 ```
 
 To get newer versions of the modules later:
@@ -76,7 +76,7 @@ Then choose **Update** on the modules in RetroPie-Setup.
 
 ### Option 2 - copy the files by hand
 
-Download the `.sh` files from [this repo](https://github.com/CARRisma1978/Wine-Box64-dependencies) and copy them to the folder above. On Windows you can use Samba or WinSCP.
+Download the `.sh` files from [this repo](https://github.com/CARRisma1978/Box64-Wine-Install) and copy them to the folder above. On Windows you can use Samba or WinSCP.
 
 ```bash
 mkdir -p ~/RetroPie-Setup/ext/windows/scriptmodules/supplementary
@@ -134,6 +134,16 @@ Choose **Remove** on a module.
 ## Credits
 
 These modules download or install software from the following projects. None of it is included in this repo.
+
+- [Box64](https://github.com/ptitSeb/box64) by ptitSeb (MIT)
+- [Wine](https://www.winehq.org/) (LGPL), using the builds by [Kron4ek](https://github.com/Kron4ek/Wine-Builds)
+- [PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/) (LGPL)
+- [FluidSynth](https://github.com/FluidSynth/fluidsynth) (LGPL) and the FluidR3 GM soundfont
+- [RetroPie-Setup](https://github.com/RetroPie/RetroPie-Setup) (GPL-3.0)
+
+## Licence
+
+The modules in this repo are released under the GNU General Public License v3.0, the same licence as RetroPie-Setup; see [LICENSE](LICENSE). The software they install is covered by its own licence, listed above.
 
 - [Box64](https://github.com/ptitSeb/box64) by ptitSeb (MIT)
 - [Wine](https://www.winehq.org/) (LGPL), using the builds by [Kron4ek](https://github.com/Kron4ek/Wine-Builds)
